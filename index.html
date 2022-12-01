@@ -1,16 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FaazizPRO</title>
+    <!-- Daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Daisy UI -->
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/a8e2726981.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a8e2726981.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
+    <!-- Nav menu starts -->
+    <header class="container mx-auto">
+      <nav class="mt-5">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li class="font-medium border-2 border-lime-400 mb-2 rounded-md"><a>Home</a></li>
+                <li class="font-medium border-2 border-lime-400 mb-2 rounded-md"><a>Info</a></li>
+                <li class="font-medium border-2 border-lime-400 mb-2 rounded-md"><a>Pricing</a></li>
+                <li class="font-medium border-2 border-lime-400 mb-2 rounded-md"><a>Pricing</a></li>
+                <li class="font-medium border-2 border-lime-400 mb-2 rounded-md"><a>Teacher</a></li>
+                <li class="font-medium border-2 border-lime-400 mb-2 rounded-md"><a>Review</a></li>
+                <li class="font-medium border-2 border-lime-400 mb-2 rounded-md"><a>Contact</a></li>
+              </ul>
+            </div>
+            <a href="/" class="btn btn-ghost normal-case text-base md:text-xl lg:text-2xl"
+              >FaazizPRO</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal p-0">
+              <li class="font-medium"><a>Home</a></li>
+              <li class="font-medium"><a>Info</a></li>
+              <li class="font-medium"><a>Pricing</a></li>
+              <li class="font-medium"><a>Pricing</a></li>
+              <li class="font-medium"><a>Teacher</a></li>
+              <li class="font-medium"><a>Review</a></li>
+              <li class="font-medium"><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end inline-flex gap-5">
+            <a href="/" class="text-lime-500 font-bold">Login</a>
+            <a
+              href="/"
+              class="bg-lime-500 py-2 px-2 text-white font-bold rounded-md"
+              >Join Us
+              <span>
+                <i class="fa-solid fa-arrow-right ml-1"></i> </span
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Nav menu Ends -->
   </body>
 </html>
